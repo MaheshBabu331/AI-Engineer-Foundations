@@ -1,21 +1,30 @@
- # AI Engineer Foundations
+# AI Engineer Foundations
 
-This repository is part of my **100 Days AI Engineer Challenge**.
+This repository contains foundational engineering work developed as part of a **100 Days AI Engineer Challenge**.
 
-The purpose of this repository is to strengthen the **core foundations required for AI and Machine Learning engineering** before moving into advanced models and deployment.
+The repository serves as a structured workspace for building and refining the **core technical skills required for AI and Machine Learning engineering**, with a strong emphasis on correctness, clarity, and engineering discipline.
 
-## Focus Areas
+---
+
+## Scope of Work
 - Python fundamentals and clean coding practices
-- Object-Oriented Programming (OOP)
-- NumPy for numerical computation
-- Pandas for data handling and analysis
-- Basic math intuition used in Machine Learning
+- Writing reusable and testable functions
+- Basic Object-Oriented Programming (OOP)
+- Numerical computation using NumPy
+- Data handling and analysis using Pandas
+- Core mathematical concepts relevant to Machine Learning
 
-## Approach
-- Code-first learning
-- Daily commits
-- Concepts are implemented, not just studied
-- Regular refactoring for clarity and correctness
+---
 
-## Progress Tracking
-Each day’s work is committed with clear messages to track progress throughout the challenge.
+## Repository Organization
+Work is organized into **day-wise folders**, where each folder represents focused hands-on implementation completed on a specific day of the challenge.
+
+This structure reflects incremental learning, consistent practice, and continuous improvement over time.
+
+---
+
+## Engineering Principles Followed
+- Code-first learning over passive study
+- Meaningful version control commits
+- Incremental refinement through refactoring
+- Focus on understanding system behavior and edge cases
