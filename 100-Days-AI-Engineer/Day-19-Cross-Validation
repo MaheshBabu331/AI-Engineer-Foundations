@@ -1,0 +1,16 @@
+import numpy as np
+from sklearn.model_selection import cross_val_score
+from sklearn.tree import DecisionTreeClassifier
+
+#Random DAta Samples
+data=load_iris()
+x=data.data
+y=data.target
+
+#Test and split
+model = DecisionTreeClassifier()
+
+scores=cross_val_score(model,x,y,cv=5)
+
+print(" Cross Validation Score :", scores)
+print("Average Accuracy:", scores.mean())
