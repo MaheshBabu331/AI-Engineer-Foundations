@@ -1,0 +1,17 @@
+from sklearn.datasets import load_iris
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import GridSearchCV
+
+data=load_iris()
+x=data.data
+y=data.target
+
+model=DecisionTreeClassifier()
+param_grid={
+  "max_depth":[2,3,4,None],
+  "min_samples_split":[2,5,10]
+  }
+grid=GridSearchCV(model,param_grid,cv=5)
+grid.fit(x,y)
+print("Best Parameters:",grid.best_params_)
+print("Best Score:",grid.best_score_)
